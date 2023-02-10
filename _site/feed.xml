@@ -4,39 +4,37 @@
   <id>http://localhost:4000/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-02-10T16:06:09+08:00</updated>
+  <updated>2023-02-10T18:29:52+09:00</updated>
   <author>
-    <name>your_full_name</name>
+    <name>chaneesong</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en"
+  <link rel="alternate" type="text/html" hreflang="ko"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 your_full_name </rights>
+  <rights> © 2023 chaneesong </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>Enable Google Page Views</title>
-    <link href="http://localhost:4000/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
-    <published>2021-01-04T07:32:00+08:00</published>
+    <title>Vaild Palindrome</title>
+    <link href="http://localhost:4000/posts/valid-palindrome/" rel="alternate" type="text/html" title="Vaild Palindrome" />
+    <published>2023-02-10T13:34:00+09:00</published>
   
-    <updated>2022-09-23T21:01:05+08:00</updated>
+    <updated>2023-02-10T13:34:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/enable-google-pv/</id>
-    <content src="http://localhost:4000/posts/enable-google-pv/" />
+    <id>http://localhost:4000/posts/valid-palindrome/</id>
+    <content src="http://localhost:4000/posts/valid-palindrome/" />
     <author>
-      <name>sille_bille</name>
+      <name>chaneesong</name>
     </author>
 
   
     
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
+    <category term="알고리즘" />
     
   
 
@@ -48,11 +46,23 @@
 
 
 
-      
-  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature of Chirpy will also be deprecated at that time.
+      125. Vaild Palindrome
+
+문제 설명
+
+모든 대문자를 소문자로 변환하고, 영어와 숫자가 아닌 문자는 제거한 뒤 앞뒤로 읽어도 똑같은 문장은 팰린드롬이다.
+문자열 s가 주어질 때, 팰린드롬이면 true를 아니라면 false를 리턴하라.
+
+해결 방법
 
 
-This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep t...
+
+
+  대문자를 소문자로 변환한다.
+  영어와 숫자가 아닌 문자는 제거한다.
+  팰린드롬인지 확인한다.
+
+
     </summary>
   
 
@@ -60,23 +70,21 @@ This post is to enable Page Views on the Chirpy theme based blog that you just b
 
   
   <entry>
-    <title>Customize the Favicon</title>
-    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T00:34:00+08:00</published>
+    <title>고전 문제를 통해 알아보는 자바스크립트 원리</title>
+    <link href="http://localhost:4000/posts/%EA%B3%A0%EC%A0%84-%EB%AC%B8%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9B%90%EB%A6%AC/" rel="alternate" type="text/html" title="고전 문제를 통해 알아보는 자바스크립트 원리" />
+    <published>2022-12-26T22:34:00+09:00</published>
   
-    <updated>2022-03-17T02:05:45+08:00</updated>
+    <updated>2023-02-10T18:00:59+09:00</updated>
   
-    <id>http://localhost:4000/posts/customize-the-favicon/</id>
-    <content src="http://localhost:4000/posts/customize-the-favicon/" />
+    <id>http://localhost:4000/posts/%EA%B3%A0%EC%A0%84-%EB%AC%B8%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9B%90%EB%A6%AC/</id>
+    <content src="http://localhost:4000/posts/%EA%B3%A0%EC%A0%84-%EB%AC%B8%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9B%90%EB%A6%AC/" />
     <author>
-      <name>cotes</name>
+      <name>gigo96</name>
     </author>
 
   
     
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
+    <category term="Javascript" />
     
   
 
@@ -88,150 +96,18 @@ This post is to enable Page Views on the Chirpy theme based blog that you just b
 
 
 
-      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
-
-Generate the favicon
-
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started</title>
-    <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T20:55:00+08:00</published>
-  
-    <updated>2023-01-30T03:01:02+08:00</updated>
-  
-    <id>http://localhost:4000/posts/getting-started/</id>
-    <content src="http://localhost:4000/posts/getting-started/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
+      시작하기 전에
 
 
+  “해당 포스팅은 자바스크립트의 원리를 재밌게 알아보기 위해 제가 생각한 설명이 포함되어 틀릴 수 있다는 점 알려드립니다. 나중에 댓글 기능이 생기면 댓글로 알려주셔도 정말 좋겠지만, 지금은 메일로 알려주시면 정말 감사하겠습니다.”
 
 
+시작 지점
 
-      Prerequisites
+얼마 전 친구가 자바스크립트 원리에 대해 아냐고 물어본 적이 있다.
+클로저, 호이스팅을 물어봤는데 저는 대답은 안하고 그거는 기본이라고 ‘자바스크립트의 3대 원리인 호이스팅, 클로저, 이벤트 루프가 있다.’라고만 대답했던 적이 있습니다.
 
-Follow the instructions in the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll, and Bundler. In addition, Git is also required to be installed.
-
-Installation
-
-Creating a New Site
-
-There are two ways to create a new repository for this theme:
-
-
-  Using the Chirpy Starter - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
-  Forking ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Writing a New Post</title>
-    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T14:10:00+08:00</published>
-  
-    <updated>2023-01-09T23:32:45+08:00</updated>
-  
-    <id>http://localhost:4000/posts/write-a-new-post/</id>
-    <content src="http://localhost:4000/posts/write-a-new-post/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
-
-Naming and Path
-
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Text and Typography</title>
-    <link href="http://localhost:4000/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
-    <published>2019-08-08T11:33:00+08:00</published>
-  
-    <updated>2022-12-28T01:20:24+08:00</updated>
-  
-    <id>http://localhost:4000/posts/text-and-typography/</id>
-    <content src="http://localhost:4000/posts/text-and-typography/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.
-
-Titles
-
-H1 - heading
-
-H2 - heading
-
-H3 - heading
-
-H4 - heading
-
-
-Paragraph
-
-Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisi...
+그 친구는 자바(자바와 자바스크립트는 햄과 햄스터같이 정말 다릅니다!)를 쓰기 때문에 제가 설명 할 자신이 없어서 그랬던 것이기도 한데, 이참에 ‘자바스크립트에 대해 모르는 사람에게도 해당 문제를 쉽게 ...
     </summary>
   
 
