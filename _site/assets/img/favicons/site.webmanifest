@@ -1,9 +1,9 @@
 
 
 {
-  "name": "Chirpy",
-  "short_name": "Chirpy",
-  "description": "A minimal, responsive, and powerful Jekyll theme for presenting professional writing.",
+  "name": "chaneesong's blog",
+  "short_name": "chaneesong's blog",
+  "description": "끝까지 가자",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",

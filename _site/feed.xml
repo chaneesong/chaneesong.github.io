@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Chirpy</title>
-  <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-02-10T18:29:52+09:00</updated>
+  <title>chaneesong's blog</title>
+  <subtitle>끝까지 가자</subtitle>
+  <updated>2023-02-10T19:32:26+09:00</updated>
   <author>
     <name>chaneesong</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/valid-palindrome/" rel="alternate" type="text/html" title="Vaild Palindrome" />
     <published>2023-02-10T13:34:00+09:00</published>
   
-    <updated>2023-02-10T13:34:00+09:00</updated>
+    <updated>2023-02-10T18:44:34+09:00</updated>
   
     <id>http://localhost:4000/posts/valid-palindrome/</id>
     <content src="http://localhost:4000/posts/valid-palindrome/" />

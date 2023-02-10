@@ -16,7 +16,7 @@ render_with_liquid: false
 
 ## 해결 방법
 
-![solve](https://drive.google.com/file/d/1Or1I7tSg9fewGHuY1_8KXBSwPz84MLBC/view?usp=share_link)
+![solve](/assets/img/valid-palindrome/solve.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
 1. 대문자를 소문자로 변환한다.
 2. 영어와 숫자가 아닌 문자는 제거한다.
