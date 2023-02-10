@@ -16,7 +16,7 @@ render_with_liquid: false
 
 ## 해결 방법
 
-![light mode only](/posts/valid-palindrome-image/solve.jpg)
+![light mode only]([/posts/valid-palindrome-image/solve.jpg](https://github.com/chaneesong/chaneesong.github.io/blob/main/_posts/valid-palindrome-image/solve.jpg))
 
 1. 대문자를 소문자로 변환한다.
 2. 영어와 숫자가 아닌 문자는 제거한다.
