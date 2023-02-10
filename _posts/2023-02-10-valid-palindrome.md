@@ -56,6 +56,4 @@ describe("Valid Palindrome", () => {
 });
 ```
 
-<br/>
-
 [문제 풀이 코드](https://github.com/chaneesong/algorithm/tree/main/typescript/String-Manipulation/vaild-palindrome)
