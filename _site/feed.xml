@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>chaneesong's blog</title>
   <subtitle>끝까지 가자</subtitle>
-  <updated>2023-02-10T19:32:26+09:00</updated>
+  <updated>2023-02-10T19:50:02+09:00</updated>
   <author>
     <name>chaneesong</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/valid-palindrome/" rel="alternate" type="text/html" title="Vaild Palindrome" />
     <published>2023-02-10T13:34:00+09:00</published>
   
-    <updated>2023-02-10T18:44:34+09:00</updated>
+    <updated>2023-02-10T19:33:14+09:00</updated>
   
     <id>http://localhost:4000/posts/valid-palindrome/</id>
     <content src="http://localhost:4000/posts/valid-palindrome/" />
@@ -63,6 +63,13 @@
   팰린드롬인지 확인한다.
 
 
+풀이 코드
+
+export function isPalindrome(s: string): boolean {
+  const lowerString = s.toLowerCase();
+  const newString = lowerString.replace(/[^0-9|a-z]/gi, "");
+
+  for (let i = 0; i &amp;lt; Math....
     </summary>
   
 
