@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>chaneesong's blog</title>
   <subtitle>끝까지 가자</subtitle>
-  <updated>2023-02-10T19:50:02+09:00</updated>
+  <updated>2023-02-11T14:50:44+09:00</updated>
   <author>
     <name>chaneesong</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,72 @@
 
   
   <entry>
+    <title>Reverse String</title>
+    <link href="http://localhost:4000/posts/reverse-string/" rel="alternate" type="text/html" title="Reverse String" />
+    <published>2023-02-11T00:00:00+09:00</published>
+  
+    <updated>2023-02-11T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/reverse-string/</id>
+    <content src="http://localhost:4000/posts/reverse-string/" />
+    <author>
+      <name>chaneesong</name>
+    </author>
+
+  
+    
+    <category term="leetcode" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      344. Reverse String
+
+문제 설명
+
+문자열을 뒤집는 함수를 작성하라.
+추가적인 메모리 사용없이 리스트를 직접 조작하여야 한다.
+
+해결 방법
+
+리스트의 절반을 순회하여 앞과 뒤를 바꾼다.
+
+
+
+풀이 코드
+
+function reverseString(s: string[]): void {
+  for (let i = 0; i &amp;lt; Math.floor(s.length / 2); i++) {
+    const tmp = s[i];
+    s[i] = s[s.length - 1 - i];
+    s[s.length - 1 - i] = tmp;
+  }
+}
+
+
+테스트 코드
+
+import { describe, expect, test } from "@jest/globals";
+import { reverse...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Vaild Palindrome</title>
     <link href="http://localhost:4000/posts/valid-palindrome/" rel="alternate" type="text/html" title="Vaild Palindrome" />
     <published>2023-02-10T13:34:00+09:00</published>
   
-    <updated>2023-02-10T19:33:14+09:00</updated>
+    <updated>2023-02-10T20:07:08+09:00</updated>
   
     <id>http://localhost:4000/posts/valid-palindrome/</id>
     <content src="http://localhost:4000/posts/valid-palindrome/" />
