@@ -2,8 +2,8 @@
 title: Reverse String
 author: chaneesong
 date: 2023-02-11 +0900
-categories: [leetcode]
-tags: [알고리즘]
+categories: [알고리즘]
+tags: [leetcode]
 render_with_liquid: false
 ---
 
