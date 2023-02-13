@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>chaneesong's blog</title>
   <subtitle></subtitle>
-  <updated>2023-02-12T21:46:42+09:00</updated>
+  <updated>2023-02-13T17:13:20+09:00</updated>
   <author>
     <name>chaneesong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,64 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Most Common Word</title>
+    <link href="http://localhost:4000/posts/most-common-word/" rel="alternate" type="text/html" title="Most Common Word" />
+    <published>2023-02-13T00:00:00+09:00</published>
+  
+    <updated>2023-02-13T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/most-common-word/</id>
+    <content src="http://localhost:4000/posts/most-common-word/" />
+    <author>
+      <name>chaneesong</name>
+    </author>
+
+  
+    
+    <category term="알고리즘" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      819. Most Common Word
+
+문제 설명
+
+문자열로 된 문장과 금지어 목록이 배열로 주어질 때, 금지어가 아니면서 가장 많이 등장하는 단어를 리턴하라.
+적어도 한 단어는 금지어로 지정되어 있지 않고, 정답은 하나 뿐이다.
+
+문장의 단어들은 대소문자가 구분되어 있지 않고, 정답은 소문자로 반환되어야 한다.
+
+해결 방법
+
+
+  주어진 문장을 배열로 파싱한다.
+    
+      주어진 문장을 소문자로 바꾼다.
+      알파벳이 아닌 문자를 공백으로 변환한다.
+      공백을 기준으로 문장을 분리한다.
+    
+  
+  단어의 숫자를 카운트 하기 위해 배열을 순회하며 object 자료형에 [word: count]형태로 저장한다.
+    
+      저장할 때 금지어는 생략한다.
+    
+  
+...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
