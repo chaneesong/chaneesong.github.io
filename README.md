@@ -1,6 +1,6 @@
-<div align="center"> 
+<div align="center">
 
-  # Chirpy Jekyll Theme
+# Chirpy Jekyll Theme
 
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
@@ -50,7 +50,7 @@ Create a new repository from the [**Chirpy Starter**](https://github.com/cotes20
 Before running for the first time, go to the root directory of your site, and install dependencies as follows:
 
 ```console
-$ bundle
+bundle
 ```
 
 ### Step 3. Running Local Server
@@ -58,7 +58,7 @@ $ bundle
 Run the following command in the root directory of the site:
 
 ```console
-$ bundle exec jekyll s
+bundle exec jekyll s
 ```
 
 Or run with Docker:
