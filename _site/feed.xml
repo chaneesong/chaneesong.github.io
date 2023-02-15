@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>chaneesong's blog</title>
   <subtitle></subtitle>
-  <updated>2023-02-14T23:51:45+09:00</updated>
+  <updated>2023-02-15T16:09:15+09:00</updated>
   <author>
     <name>chaneesong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,59 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>chatGpt를 통한 테스트코드 작성</title>
+    <link href="http://localhost:4000/posts/chatGpt%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1/" rel="alternate" type="text/html" title="chatGpt를 통한 테스트코드 작성" />
+    <published>2023-02-15T00:00:00+09:00</published>
+  
+    <updated>2023-02-15T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/chatGpt%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1/</id>
+    <content src="http://localhost:4000/posts/chatGpt%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1/" />
+    <author>
+      <name>chaneesong</name>
+    </author>
+
+  
+    
+    <category term="typescript" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Intro
+
+리트코드의 Group Anagrams라는 문제를 풀다가 테스트코드를 작성하는데 지문에 이런 문구가 있다.
+
+
+  You can return the answer in any order.
+어떠한 순서로도 반환할 수 있다.
+
+
+이럴 때 jest로 테스트코드를 작성한다고 하면 어떻게 작성해야되는지 의문이 들었다.
+그런데 애초에 키워드 자체를 모르는데 어떻게 검색을 할 수 있나… ㅋㅋ
+그래서 jest 공식문서 몇 번 깔짝거리다가 검색 몇 번 해보고 Gpt한테 물어봤다.
+
+
+
+어허 너무 쉽잖아 jest로 ‘해줘(애초에 정확하지 않기도 함).’
+
+describe("groupAnagrams", () =&amp;gt; {
+  test("example test case", () =&amp;gt; {
+    const in...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -239,67 +292,6 @@ log 배열이 주어진다. 각각의 로그는 공백으로 구분되어있고,
 
   입력 받은 로그 배열을 문자와 숫자 로그로 분리한다.
   문자 로그는 사전 순으로 재 정렬...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Reverse String</title>
-    <link href="http://localhost:4000/posts/reverse-string/" rel="alternate" type="text/html" title="Reverse String" />
-    <published>2023-02-11T00:00:00+09:00</published>
-  
-    <updated>2023-02-12T17:48:09+09:00</updated>
-  
-    <id>http://localhost:4000/posts/reverse-string/</id>
-    <content src="http://localhost:4000/posts/reverse-string/" />
-    <author>
-      <name>chaneesong</name>
-    </author>
-
-  
-    
-    <category term="알고리즘" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      344. Reverse String
-
-문제 설명
-
-문자열을 뒤집는 함수를 작성하라.
-추가적인 메모리 사용없이 리스트를 직접 조작하여야 한다.
-
-해결 방법
-
-리스트의 절반을 순회하여 앞과 뒤를 바꾼다.
-
-
-
-풀이 코드
-
-function reverseString(s: string[]): void {
-  for (let i = 0; i &amp;lt; Math.floor(s.length / 2); i++) {
-    const tmp = s[i];
-    s[i] = s[s.length - 1 - i];
-    s[s.length - 1 - i] = tmp;
-  }
-}
-
-
-테스트 코드
-
-import { describe, expect, test } from "@jest/globals";
-import { reverse...
     </summary>
   
 
