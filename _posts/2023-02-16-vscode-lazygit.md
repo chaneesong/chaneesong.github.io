@@ -1,7 +1,7 @@
 ---
 title: vscode에서 lazygit 사용하기
 author: chaneesong
-date:  +0900
+date: 2023-02-16 +0900
 categories: [editor]
 tags: [vscode]
 render_with_liquid: false

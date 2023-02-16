@@ -42,6 +42,7 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="chaneesong’s blog" />
 <meta property="og:type" content="website" />
+<link rel="next" href="http://localhost:4000/page2" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="chaneesong’s blog" />
 <meta name="twitter:site" content="@twitter_username" />
@@ -487,6 +488,209 @@
 
 
 <div id="post-list">
+
+
+
+  <div class="post-preview">
+    <h1>
+      <a href="/posts/vscode-lazygit/">vscode에서 lazygit 사용하기</a>
+    </h1>
+
+    <div class="post-content">
+      <p>
+        
+
+
+
+
+
+        Intro
+
+요즘 vscode를 설정하는데 푹 빠져있다.
+원래 더 자유도가 높고, 마우스도 잘 안쓰는 neovim을 쓰려고 했는데, 컴퓨터가 안좋은 탓인지 몰라도 커맨드를 여러 개 중첩시키면 제대로 동작하지 않는 현상이 벌어진다.
+예로 들면, 전체 선택을 하기 위해 커서를 파일 끝으로 옮기고, 선택 모드로 진입 후 첫 라인으로 이동, 그리고 커서를 앞...
+      </p>
+    </div>
+
+    <div class="post-meta text-muted d-flex">
+      <div class="mr-auto">
+
+        <!-- posted date -->
+        <i class="far fa-calendar fa-fw"></i>
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class=""
+    data-ts="1676473200"
+    data-df="YYYY/MM/DD"
+    >
+  2023/02/16
+</em>
+
+
+        <!-- categories -->
+        
+          <i class="far fa-folder-open fa-fw"></i>
+          <span>
+          
+            editor
+          </span>
+        
+
+      </div>
+
+      
+
+    </div> <!-- .post-meta -->
+
+  </div> <!-- .post-review -->
+
+
+
+  <div class="post-preview">
+    <h1>
+      <a href="/posts/two-sum/">Two Sum</a>
+    </h1>
+
+    <div class="post-content">
+      <p>
+        
+
+
+
+
+
+        1. Two Sum
+
+문제 설명
+
+숫자 nums 배열과 타겟 숫자가 주어질 때, 배열의 두 숫자를 합하여 타겟이 되는 인덱스를 반환하라.
+
+각각의 입력에는 하나의 솔루션만 있고, 같은 요소를 두 번 사용할 수 없다.
+
+정답을 반환 할 때, 정렬은 필요없다.
+
+해결 방법
+
+반복문을 돌며 타겟에서 현재 값을 빼면 나머지 값이 나오기 때문에 이를 배열에서 ...
+      </p>
+    </div>
+
+    <div class="post-meta text-muted d-flex">
+      <div class="mr-auto">
+
+        <!-- posted date -->
+        <i class="far fa-calendar fa-fw"></i>
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class=""
+    data-ts="1676473200"
+    data-df="YYYY/MM/DD"
+    >
+  2023/02/16
+</em>
+
+
+        <!-- categories -->
+        
+          <i class="far fa-folder-open fa-fw"></i>
+          <span>
+          
+            알고리즘
+          </span>
+        
+
+      </div>
+
+      
+
+    </div> <!-- .post-meta -->
+
+  </div> <!-- .post-review -->
+
+
+
+  <div class="post-preview">
+    <h1>
+      <a href="/posts/longest-palindromic-substring/">Longest Palindromic Substring</a>
+    </h1>
+
+    <div class="post-content">
+      <p>
+        
+
+
+
+
+
+        5. Longest Palindromic Substring
+
+문제 설명
+
+문자열 s가 주어질 때, 부분 문자열 중 가장 긴 팰린드롬을 리턴하라.
+
+해결 방법
+
+
+  부분 문자열의 팰린드롬을 확인하는 expand 함수를 정의한다.
+    
+      expand는 left와 right를 투포인터로 받아 양쪽으로 확장하면서 팰린드롬을 체크한다.
+    
+...
+      </p>
+    </div>
+
+    <div class="post-meta text-muted d-flex">
+      <div class="mr-auto">
+
+        <!-- posted date -->
+        <i class="far fa-calendar fa-fw"></i>
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class=""
+    data-ts="1676386800"
+    data-df="YYYY/MM/DD"
+    >
+  2023/02/15
+</em>
+
+
+        <!-- categories -->
+        
+          <i class="far fa-folder-open fa-fw"></i>
+          <span>
+          
+            알고리즘
+          </span>
+        
+
+      </div>
+
+      
+
+    </div> <!-- .post-meta -->
+
+  </div> <!-- .post-review -->
 
 
 
@@ -981,73 +1185,6 @@ function reverseString(s: string[]): void {
 
 
 
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/%EA%B3%A0%EC%A0%84-%EB%AC%B8%EC%A0%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9B%90%EB%A6%AC/">고전 문제를 통해 알아보는 자바스크립트 원리</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        시작하기 전에
-
-
-  “해당 포스팅은 자바스크립트의 원리를 재밌게 알아보기 위해 제가 생각한 설명이 포함되어 틀릴 수 있다는 점 알려드립니다. 나중에 댓글 기능이 생기면 댓글로 알려주셔도 정말 좋겠지만, 지금은 메일로 알려주시면 정말 감사하겠습니다.”
-
-
-시작 지점
-
-얼마 전 친구가 자바스크립트 원리에 대해 아냐고 물어본 적이 있다.
-클로저, 호이스팅...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class=""
-    data-ts="1672061640"
-    data-df="YYYY/MM/DD"
-    >
-  2022/12/26
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Javascript
-          </span>
-        
-
-      </div>
-
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
 </div> <!-- #post-list -->
 
 
@@ -1088,17 +1225,34 @@ function reverseString(s: string[]): void {
 
   
 
+    
+    
+    
+    
+    
+
+    
+
+    
+      <!-- show number -->
+      <li class="page-item ">
+        <a class="page-link btn-box-shadow" href="/page2">2</a>
+      </li>
+    
+
+  
+
   <!-- mobile pagination -->
   <li class="page-index align-middle">
     <span>1</span>
-    <span class="text-muted">/ 1</span>
+    <span class="text-muted">/ 2</span>
   </li>
 
   <!-- right arrow -->
   
 
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="next-page">
+  <li class="page-item ">
+    <a class="page-link btn-box-shadow" href="/page2" aria-label="next-page">
       <i class="fas fa-angle-right"></i>
     </a>
   </li>
@@ -1137,6 +1291,11 @@ function reverseString(s: string[]): void {
   <div id="access-lastmod" class="post">
     <div class="panel-heading">최근 업데이트</div>
     <ul class="post-content pl-0 pb-1 ml-1 mt-2">
+      
+        
+        
+        
+      <li><a href="/posts/chatGpt%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1/">chatGpt를 통한 테스트코드 작성</a></li>
       
         
         
@@ -1246,6 +1405,41 @@ function reverseString(s: string[]): void {
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <div id="access-tags">
@@ -1264,6 +1458,9 @@ function reverseString(s: string[]): void {
     
       
       <a class="post-tag" href="/tags/testcode/">testcode</a>
+    
+      
+      <a class="post-tag" href="/tags/vscode/">vscode</a>
     
 
     </div>
@@ -1376,6 +1573,41 @@ function reverseString(s: string[]): void {
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <div id="access-tags">
@@ -1394,6 +1626,9 @@ function reverseString(s: string[]): void {
     
       
       <a class="post-tag" href="/tags/testcode/">testcode</a>
+    
+      
+      <a class="post-tag" href="/tags/vscode/">vscode</a>
     
 
     </div>
