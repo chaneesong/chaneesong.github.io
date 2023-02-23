@@ -1,5 +1,5 @@
 ---
-title:  TITLE
+title:  Merge Two Sorted Lists
 author: chaneesong
 date: 2023-02-23 +0900
 categories: [알고리즘]
