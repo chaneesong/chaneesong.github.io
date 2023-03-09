@@ -81,5 +81,3 @@ describe(' description', () => {
 });
 
 ```
-
-## 구현 후
